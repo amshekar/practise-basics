@@ -3,9 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29806.167
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DisposablePattern", "DisposablePattern\DisposablePattern.csproj", "{85E9E587-5C53-4BE1-9A13-D43160B17AFA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DisposablePattern", "DisposablePattern\DisposablePattern.csproj", "{85E9E587-5C53-4BE1-9A13-D43160B17AFA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RetryRepository", "RetryRepository\RetryRepository.csproj", "{C1A62269-9CD4-4406-AABE-CF737F3C1C55}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RetryRepository", "RetryRepository\RetryRepository.csproj", "{C1A62269-9CD4-4406-AABE-CF737F3C1C55}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinqCustomer", "LinqCustomer\LinqCustomer.csproj", "{00563D72-5604-4E83-99B8-9CFCD1601F03}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Javascript", "Javascript\Javascript.csproj", "{CB22C9E8-CD92-469E-B6C1-7F602D68420F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinqDictionary", "LinqDictionary\LinqDictionary.csproj", "{B5F07463-B0F6-4900-83AD-B83C629A51D2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Array", "Array\Array.csproj", "{305F1821-D725-4931-8818-6534709B0220}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RetryTest", "RetryTest\RetryTest.csproj", "{6F691477-7067-412B-8469-7DACD67EA6A1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +31,26 @@ Global
 		{C1A62269-9CD4-4406-AABE-CF737F3C1C55}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C1A62269-9CD4-4406-AABE-CF737F3C1C55}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C1A62269-9CD4-4406-AABE-CF737F3C1C55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00563D72-5604-4E83-99B8-9CFCD1601F03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00563D72-5604-4E83-99B8-9CFCD1601F03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00563D72-5604-4E83-99B8-9CFCD1601F03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00563D72-5604-4E83-99B8-9CFCD1601F03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB22C9E8-CD92-469E-B6C1-7F602D68420F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB22C9E8-CD92-469E-B6C1-7F602D68420F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB22C9E8-CD92-469E-B6C1-7F602D68420F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB22C9E8-CD92-469E-B6C1-7F602D68420F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5F07463-B0F6-4900-83AD-B83C629A51D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5F07463-B0F6-4900-83AD-B83C629A51D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5F07463-B0F6-4900-83AD-B83C629A51D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5F07463-B0F6-4900-83AD-B83C629A51D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{305F1821-D725-4931-8818-6534709B0220}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{305F1821-D725-4931-8818-6534709B0220}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{305F1821-D725-4931-8818-6534709B0220}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{305F1821-D725-4931-8818-6534709B0220}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F691477-7067-412B-8469-7DACD67EA6A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F691477-7067-412B-8469-7DACD67EA6A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F691477-7067-412B-8469-7DACD67EA6A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F691477-7067-412B-8469-7DACD67EA6A1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
